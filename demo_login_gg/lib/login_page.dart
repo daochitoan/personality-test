@@ -1,4 +1,5 @@
 import 'package:demologingg/home.dart';
+import 'package:demologingg/homepage.dart';
 import 'package:demologingg/sign_in.dart';
 import 'package:flutter/material.dart';
 
@@ -50,7 +51,7 @@ class _LoginPageState extends State<LoginPage> {
           Navigator.of(context).push(
             MaterialPageRoute(
               builder: (context) {
-                return HomePage();
+                return Home();
               },
             ),
           );
